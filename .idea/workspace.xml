@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59983473-fa0b-41f8-ad8f-5aef09cc3439" name="Changes" comment="新增员工">
+    <list default="true" id="59983473-fa0b-41f8-ad8f-5aef09cc3439" name="Changes" comment="根据id修改员工信息">
+      <change afterPath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/xiaozayu/reggie/common/JacksonObjectMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/xiaozayu/reggie/config/WebMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/xiaozayu/reggie/config/WebMvcConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +108,12 @@
       <workItem from="1711020298768" duration="30000" />
       <workItem from="1711020813690" duration="4002000" />
       <workItem from="1711092819247" duration="7000" />
-      <workItem from="1711117515835" duration="6458000" />
+      <workItem from="1711117515835" duration="6914000" />
+      <workItem from="1711175724296" duration="4413000" />
+      <workItem from="1711195436870" duration="595000" />
+      <workItem from="1711211451716" duration="18000" />
+      <workItem from="1711297491482" duration="364000" />
+      <workItem from="1711348138676" duration="864000" />
     </task>
     <task id="LOCAL-00001" summary="1.创建Controller，Service，Mapper，实体类&#10;2.导入通用返回结果类&#10;3.前端代码&#10;4.实现登录">
       <option name="closed" value="true" />
@@ -148,7 +155,39 @@
       <option name="project" value="LOCAL" />
       <updated>1711123618462</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="1.过滤器（之前没上传成功）&#10;2.全局异常处理">
+      <option name="closed" value="true" />
+      <created>1711126395126</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1711126395126</updated>
+    </task>
+    <task id="LOCAL-00007" summary="导入MybatisPlus的分页插件">
+      <option name="closed" value="true" />
+      <created>1711176879736</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1711176879736</updated>
+    </task>
+    <task id="LOCAL-00008" summary="员工信息分页查询">
+      <option name="closed" value="true" />
+      <created>1711178095239</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1711178095239</updated>
+    </task>
+    <task id="LOCAL-00009" summary="根据id修改员工信息">
+      <option name="closed" value="true" />
+      <created>1711180127143</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1711180127143</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +210,10 @@
     <MESSAGE value="过滤器" />
     <MESSAGE value="完善过滤器LoginCheck" />
     <MESSAGE value="新增员工" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增员工" />
+    <MESSAGE value="1.过滤器（之前没上传成功）&#10;2.全局异常处理" />
+    <MESSAGE value="导入MybatisPlus的分页插件" />
+    <MESSAGE value="员工信息分页查询" />
+    <MESSAGE value="根据id修改员工信息" />
+    <option name="LAST_COMMIT_MESSAGE" value="根据id修改员工信息" />
   </component>
 </project>
