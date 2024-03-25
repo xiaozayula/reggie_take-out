@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59983473-fa0b-41f8-ad8f-5aef09cc3439" name="Changes" comment="根据id修改员工信息">
-      <change afterPath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/xiaozayu/reggie/common/JacksonObjectMapper.java" afterDir="false" />
+    <list default="true" id="59983473-fa0b-41f8-ad8f-5aef09cc3439" name="Changes" comment="根据id查询员工信息">
+      <change afterPath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/xiaozayu/reggie/common/MyMetaObjecthandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/xiaozayu/reggie/config/WebMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/xiaozayu/reggie/config/WebMvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/xiaozayu/reggie/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/xiaozayu/reggie/controller/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/xiaozayu/reggie/entity/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/xiaozayu/reggie/entity/Employee.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +114,7 @@
       <workItem from="1711195436870" duration="595000" />
       <workItem from="1711211451716" duration="18000" />
       <workItem from="1711297491482" duration="364000" />
-      <workItem from="1711348138676" duration="864000" />
+      <workItem from="1711348138676" duration="5189000" />
     </task>
     <task id="LOCAL-00001" summary="1.创建Controller，Service，Mapper，实体类&#10;2.导入通用返回结果类&#10;3.前端代码&#10;4.实现登录">
       <option name="closed" value="true" />
@@ -187,7 +188,23 @@
       <option name="project" value="LOCAL" />
       <updated>1711180127143</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="1.添加对象映射器&#10;2.扩展mvc框架的消息转换器">
+      <option name="closed" value="true" />
+      <created>1711349707916</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1711349707916</updated>
+    </task>
+    <task id="LOCAL-00011" summary="根据id查询员工信息">
+      <option name="closed" value="true" />
+      <created>1711350613321</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1711350613321</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,6 +231,8 @@
     <MESSAGE value="导入MybatisPlus的分页插件" />
     <MESSAGE value="员工信息分页查询" />
     <MESSAGE value="根据id修改员工信息" />
-    <option name="LAST_COMMIT_MESSAGE" value="根据id修改员工信息" />
+    <MESSAGE value="1.添加对象映射器&#10;2.扩展mvc框架的消息转换器" />
+    <MESSAGE value="根据id查询员工信息" />
+    <option name="LAST_COMMIT_MESSAGE" value="根据id查询员工信息" />
   </component>
 </project>
