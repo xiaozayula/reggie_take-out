@@ -28,4 +28,12 @@ public class GlobalExceptionHandler {
         }
         return R.error("失败");
     }
+
+    //进行异常处理
+    @ExceptionHandler(CustomException.class)//表示处理SQLIntegrityConstraintViolationException这种异常
+    public  R<String> excceptionHandler(CustomException ex){
+        log.error(ex.getMessage());
+
+        return R.error(ex.getMessage());
+    }
 }

@@ -1,15 +1,14 @@
 package com.xiaozayu.reggie.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.xiaozayu.reggie.entity.Category;
+import com.xiaozayu.reggie.entity.Setmeal;
 
 /**
  * Created with IntelliJ IDEA.
  *
  * @Author: zhangyu
- * @Date: 2024/03/26/15:28
+ * @Date: 2024/03/26/20:20
  * @Description:
  */
-public interface CategoryService extends IService<Category> {
-    public  void remove(Long id);
+public interface SetmealService extends IService<Setmeal> {
 }
