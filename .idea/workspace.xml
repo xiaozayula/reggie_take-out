@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59983473-fa0b-41f8-ad8f-5aef09cc3439" name="Changes" comment="根据id查询员工信息">
-      <change afterPath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/xiaozayu/reggie/common/MyMetaObjecthandler.java" afterDir="false" />
+    <list default="true" id="59983473-fa0b-41f8-ad8f-5aef09cc3439" name="Changes" comment="公共字段自动填充">
+      <change afterPath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/xiaozayu/reggie/entity/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/xiaozayu/reggie/mapper/CategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/xiaozayu/reggie/service/CategoryService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/xiaozayu/reggie/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/xiaozayu/reggie/controller/EmployeeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/xiaozayu/reggie/entity/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/xiaozayu/reggie/entity/Employee.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +30,9 @@
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2dwczfcUALnm68FPqIDm6FsEd1E" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -46,7 +49,7 @@
     &quot;Spring Boot.ReggieApplication.executor&quot;: &quot;Run&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/workspace/reggie_take_out/reggie_take_out/src/main/java/com/xiaozayu/reggie/common&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/workspace/reggie_take_out/reggie_take_out/src/main/java/com/xiaozayu/reggie/entity&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -61,8 +64,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\workspace\reggie_take_out\reggie_take_out\src\main\java\com\xiaozayu\reggie\common" />
       <recent name="D:\workspace\reggie_take_out\reggie_take_out\src\main\java\com\xiaozayu\reggie\entity" />
+      <recent name="D:\workspace\reggie_take_out\reggie_take_out\src\main\java\com\xiaozayu\reggie\common" />
       <recent name="D:\workspace\reggie_take_out\reggie_take_out\src\main\resources" />
     </key>
   </component>
@@ -114,7 +117,9 @@
       <workItem from="1711195436870" duration="595000" />
       <workItem from="1711211451716" duration="18000" />
       <workItem from="1711297491482" duration="364000" />
-      <workItem from="1711348138676" duration="5189000" />
+      <workItem from="1711348138676" duration="7128000" />
+      <workItem from="1711435207120" duration="3551000" />
+      <workItem from="1711450184209" duration="2501000" />
     </task>
     <task id="LOCAL-00001" summary="1.创建Controller，Service，Mapper，实体类&#10;2.导入通用返回结果类&#10;3.前端代码&#10;4.实现登录">
       <option name="closed" value="true" />
@@ -204,7 +209,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711350613321</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="公共字段自动填充">
+      <option name="closed" value="true" />
+      <created>1711355076622</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1711355076622</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,6 +246,7 @@
     <MESSAGE value="根据id修改员工信息" />
     <MESSAGE value="1.添加对象映射器&#10;2.扩展mvc框架的消息转换器" />
     <MESSAGE value="根据id查询员工信息" />
-    <option name="LAST_COMMIT_MESSAGE" value="根据id查询员工信息" />
+    <MESSAGE value="公共字段自动填充" />
+    <option name="LAST_COMMIT_MESSAGE" value="公共字段自动填充" />
   </component>
 </project>
