@@ -30,7 +30,7 @@ public class GlobalExceptionHandler {
     }
 
     //进行异常处理
-    @ExceptionHandler(CustomException.class)//表示处理SQLIntegrityConstraintViolationException这种异常
+    @ExceptionHandler(CustomException.class)
     public  R<String> excceptionHandler(CustomException ex){
         log.error(ex.getMessage());
 

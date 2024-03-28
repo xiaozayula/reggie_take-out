@@ -11,5 +11,6 @@ import com.xiaozayu.reggie.entity.Category;
  * @Description:
  */
 public interface CategoryService extends IService<Category> {
+
     public  void remove(Long id);
 }
