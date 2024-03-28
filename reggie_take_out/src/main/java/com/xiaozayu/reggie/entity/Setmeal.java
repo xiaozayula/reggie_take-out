@@ -64,7 +64,7 @@ public class Setmeal implements Serializable {
     private Long updateUser;
 
 
-    //是否删除
-    @TableField(select = false)
-    private Integer isDeleted;
+//    //是否删除
+//    @TableField(select = false)
+//    private Integer isDeleted;
 }

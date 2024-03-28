@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59983473-fa0b-41f8-ad8f-5aef09cc3439" name="Changes" comment="1.category实体类，service，mapper，controller&#10;2.实现分页查询">
+    <list default="true" id="59983473-fa0b-41f8-ad8f-5aef09cc3439" name="Changes" comment="删除分类">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/xiaozayu/reggie/common/CustomException.java" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/xiaozayu/reggie/common/CustomException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/xiaozayu/reggie/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/xiaozayu/reggie/controller/CategoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/xiaozayu/reggie/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/xiaozayu/reggie/service/CategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/xiaozayu/reggie/entity/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/xiaozayu/reggie/entity/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/xiaozayu/reggie/entity/Dish.java" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/xiaozayu/reggie/entity/Dish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/xiaozayu/reggie/entity/Setmeal.java" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/xiaozayu/reggie/entity/Setmeal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/xiaozayu/reggie/service/impl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/xiaozayu/reggie/service/impl/CategoryServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -120,7 +120,9 @@
       <workItem from="1711297491482" duration="364000" />
       <workItem from="1711348138676" duration="7128000" />
       <workItem from="1711435207120" duration="3551000" />
-      <workItem from="1711450184209" duration="7959000" />
+      <workItem from="1711450184209" duration="9159000" />
+      <workItem from="1711537163597" duration="1307000" />
+      <workItem from="1711542084300" duration="28000" />
     </task>
     <task id="LOCAL-00001" summary="1.创建Controller，Service，Mapper，实体类&#10;2.导入通用返回结果类&#10;3.前端代码&#10;4.实现登录">
       <option name="closed" value="true" />
@@ -226,7 +228,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711453630299</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="删除分类">
+      <option name="closed" value="true" />
+      <created>1711459130160</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1711459130160</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,6 +267,7 @@
     <MESSAGE value="根据id查询员工信息" />
     <MESSAGE value="公共字段自动填充" />
     <MESSAGE value="1.category实体类，service，mapper，controller&#10;2.实现分页查询" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.category实体类，service，mapper，controller&#10;2.实现分页查询" />
+    <MESSAGE value="删除分类" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除分类" />
   </component>
 </project>
