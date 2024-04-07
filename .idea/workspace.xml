@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59983473-fa0b-41f8-ad8f-5aef09cc3439" name="Changes" comment="文件下载">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/66670e3c-8c7a-4d29-b2f3-6011b129c51a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/66670e3c-8c7a-4d29-b2f3-6011b129c51a.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/xiaozayu/reggie/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/xiaozayu/reggie/controller/CategoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/xiaozayu/reggie/service/DishService.java" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/xiaozayu/reggie/service/DishService.java" afterDir="false" />
+    <list default="true" id="59983473-fa0b-41f8-ad8f-5aef09cc3439" name="Changes" comment="1.CategoryController根据条件查询分类数据&#10;2.完善DishFlavor">
+      <change beforePath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/xiaozayu/reggie/controller/DishController.java" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/xiaozayu/reggie/controller/DishController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +47,7 @@
     "Spring Boot.ReggieApplication.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/workspace/reggie_take_out/reggie_take_out/src/main/java/com/xiaozayu/reggie/entity",
+    "last_opened_file_path": "D:/workspace/reggie_take_out/reggie_take_out/src/main/java/com/xiaozayu/reggie/dto",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -71,6 +67,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\reggie_take_out\reggie_take_out\src\main\java\com\xiaozayu\reggie\dto" />
       <recent name="D:\workspace\reggie_take_out\reggie_take_out\src\main\java\com\xiaozayu\reggie\entity" />
       <recent name="D:\workspace\reggie_take_out\reggie_take_out\src\main\resources\backend\page\demo" />
       <recent name="D:\workspace\reggie_take_out\reggie_take_out\src\main\java\com\xiaozayu\reggie\common" />
@@ -153,7 +150,7 @@
       <workItem from="1711867989990" duration="55000" />
       <workItem from="1711878982689" duration="10000" />
       <workItem from="1711970903355" duration="13000" />
-      <workItem from="1712471357427" duration="4784000" />
+      <workItem from="1712471357427" duration="6262000" />
     </task>
     <task id="LOCAL-00001" summary="1.创建Controller，Service，Mapper，实体类&#10;2.导入通用返回结果类&#10;3.前端代码&#10;4.实现登录">
       <option name="closed" value="true" />
@@ -299,7 +296,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711795481559</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="1.CategoryController根据条件查询分类数据&#10;2.完善DishFlavor">
+      <option name="closed" value="true" />
+      <created>1712476655058</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1712476655058</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -335,6 +340,7 @@
     <MESSAGE value="修改分类" />
     <MESSAGE value="文件上传" />
     <MESSAGE value="文件下载" />
-    <option name="LAST_COMMIT_MESSAGE" value="文件下载" />
+    <MESSAGE value="1.CategoryController根据条件查询分类数据&#10;2.完善DishFlavor" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.CategoryController根据条件查询分类数据&#10;2.完善DishFlavor" />
   </component>
 </project>
