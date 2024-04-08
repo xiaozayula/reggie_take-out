@@ -1,6 +1,7 @@
 package com.xiaozayu.reggie.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.xiaozayu.reggie.dto.DishDto;
 import com.xiaozayu.reggie.entity.Dish;
 import com.xiaozayu.reggie.entity.DishFlavor;
 import org.springframework.stereotype.Service;
@@ -14,4 +15,7 @@ import org.springframework.stereotype.Service;
  */
 
 public interface DishService extends IService<Dish> {
+
+    public void saveWithFlavor(DishDto dishDto);
+
 }
