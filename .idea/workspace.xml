@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59983473-fa0b-41f8-ad8f-5aef09cc3439" name="Changes" comment="1.接收页面提交的数据（Dishdto）">
+    <list default="true" id="59983473-fa0b-41f8-ad8f-5aef09cc3439" name="Changes" comment="保存数据到dish菜品表和dishFlavor菜品口味表">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/xiaozayu/reggie/service/DishService.java" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/xiaozayu/reggie/service/DishService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/xiaozayu/reggie/service/impl/DishServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/xiaozayu/reggie/service/impl/DishServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/xiaozayu/reggie/controller/DishController.java" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/xiaozayu/reggie/controller/DishController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +152,8 @@
       <workItem from="1711878982689" duration="10000" />
       <workItem from="1711970903355" duration="13000" />
       <workItem from="1712471357427" duration="6412000" />
-      <workItem from="1712535988961" duration="1720000" />
+      <workItem from="1712535988961" duration="2101000" />
+      <workItem from="1712541432505" duration="3696000" />
     </task>
     <task id="LOCAL-00001" summary="1.创建Controller，Service，Mapper，实体类&#10;2.导入通用返回结果类&#10;3.前端代码&#10;4.实现登录">
       <option name="closed" value="true" />
@@ -315,7 +315,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712478081928</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="保存数据到dish菜品表和dishFlavor菜品口味表">
+      <option name="closed" value="true" />
+      <created>1712538034604</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1712538034604</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -353,6 +361,7 @@
     <MESSAGE value="文件下载" />
     <MESSAGE value="1.CategoryController根据条件查询分类数据&#10;2.完善DishFlavor" />
     <MESSAGE value="1.接收页面提交的数据（Dishdto）" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.接收页面提交的数据（Dishdto）" />
+    <MESSAGE value="保存数据到dish菜品表和dishFlavor菜品口味表" />
+    <option name="LAST_COMMIT_MESSAGE" value="保存数据到dish菜品表和dishFlavor菜品口味表" />
   </component>
 </project>
