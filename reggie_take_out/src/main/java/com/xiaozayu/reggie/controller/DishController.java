@@ -98,4 +98,16 @@ public class DishController {
         DishDto dishDto = dishService.getByIdWithFlavor(id);
         return  R.success(dishDto);
     }
+
+    /**
+     * 更新菜品
+     * @param dishDto
+     * @return
+     */
+    @PutMapping
+    public R<String> update(@RequestBody DishDto dishDto){//提交json数据，所以要加@RequestBody
+        log.info(dishDto.toString());
+        dishService.updateWithFlavor(dishDto);
+        return  R.success("更新菜品成功");
+    }
 }

@@ -16,10 +16,13 @@ import com.xiaozayu.reggie.entity.DishFlavor;
 public interface DishService extends IService<Dish> {
 
     //新增菜品，同时新增菜品对应的口味数据，操作dish和dishFlavor两张表
-
     public void saveWithFlavor(DishDto dishDto);
 
     //根据id查询菜品信息和对应口味信息
     public DishDto getByIdWithFlavor(Long id);
+
+    //更新菜品，同时更新菜品对应的口味
+    public void updateWithFlavor(DishDto dishDto);
+
 
 }
