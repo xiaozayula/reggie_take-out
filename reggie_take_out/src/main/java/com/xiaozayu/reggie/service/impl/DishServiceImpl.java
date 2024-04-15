@@ -68,6 +68,7 @@ public class DishServiceImpl  extends ServiceImpl<DishMapper, Dish>implements Di
     }
 
     @Override
+    @Transactional
     public void updateWithFlavor(DishDto dishDto) {
         //更新dish表的菜品信息
         this.updateById(dishDto);
