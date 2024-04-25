@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59983473-fa0b-41f8-ad8f-5aef09cc3439" name="Changes" comment="新增套餐：根据分类id查询菜品（补充）">
+    <list default="true" id="59983473-fa0b-41f8-ad8f-5aef09cc3439" name="Changes" comment="新增套餐：保存数据到对应表">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/xiaozayu/reggie/controller/SetmealController.java" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/xiaozayu/reggie/controller/SetmealController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/xiaozayu/reggie/service/SetmealService.java" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/xiaozayu/reggie/service/SetmealService.java" afterDir="false" />
@@ -162,7 +162,9 @@
       <workItem from="1712902737436" duration="26000" />
       <workItem from="1713148154613" duration="4743000" />
       <workItem from="1713198788832" duration="7000" />
-      <workItem from="1713352782387" duration="1824000" />
+      <workItem from="1713352782387" duration="2041000" />
+      <workItem from="1713437409778" duration="5515000" />
+      <workItem from="1714012837424" duration="1907000" />
     </task>
     <task id="LOCAL-00001" summary="1.创建Controller，Service，Mapper，实体类&#10;2.导入通用返回结果类&#10;3.前端代码&#10;4.实现登录">
       <option name="closed" value="true" />
@@ -372,7 +374,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713152795680</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="新增套餐：保存数据到对应表">
+      <option name="closed" value="true" />
+      <created>1713354814523</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1713354814524</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -390,7 +400,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="1.员工退出" />
     <MESSAGE value="过滤器" />
     <MESSAGE value="完善过滤器LoginCheck" />
     <MESSAGE value="新增员工" />
@@ -415,6 +424,7 @@
     <MESSAGE value="更新菜品信息和对应口味信息" />
     <MESSAGE value="新增套餐：根据分类id查询菜品" />
     <MESSAGE value="新增套餐：根据分类id查询菜品（补充）" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增套餐：根据分类id查询菜品（补充）" />
+    <MESSAGE value="新增套餐：保存数据到对应表" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增套餐：保存数据到对应表" />
   </component>
 </project>
