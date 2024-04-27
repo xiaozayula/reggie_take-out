@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59983473-fa0b-41f8-ad8f-5aef09cc3439" name="Changes" comment="1.发送手机验证码2.移动端用户登录">
+    <list default="true" id="59983473-fa0b-41f8-ad8f-5aef09cc3439" name="Changes" comment="地址簿管理">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/xiaozayu/reggie/controller/DishController.java" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/xiaozayu/reggie/controller/DishController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/xiaozayu/reggie/controller/SetmealController.java" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/xiaozayu/reggie/controller/SetmealController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -252,7 +254,7 @@
       <workItem from="1714055634700" duration="2765000" />
       <workItem from="1714112453526" duration="5134000" />
       <workItem from="1714143214865" duration="3980000" />
-      <workItem from="1714192594722" duration="2512000" />
+      <workItem from="1714192594722" duration="5344000" />
     </task>
     <task id="LOCAL-00001" summary="1.创建Controller，Service，Mapper，实体类&#10;2.导入通用返回结果类&#10;3.前端代码&#10;4.实现登录">
       <option name="closed" value="true" />
@@ -494,7 +496,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714148664861</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="地址簿管理">
+      <option name="closed" value="true" />
+      <created>1714195786026</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1714195786026</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -512,7 +522,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="1.过滤器（之前没上传成功）&#10;2.全局异常处理" />
     <MESSAGE value="导入MybatisPlus的分页插件" />
     <MESSAGE value="员工信息分页查询" />
     <MESSAGE value="根据id修改员工信息" />
@@ -537,6 +546,7 @@
     <MESSAGE value="删除套餐，同时需要删除套餐和菜品的关联数据" />
     <MESSAGE value="短信登录-1" />
     <MESSAGE value="1.发送手机验证码2.移动端用户登录" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.发送手机验证码2.移动端用户登录" />
+    <MESSAGE value="地址簿管理" />
+    <option name="LAST_COMMIT_MESSAGE" value="地址簿管理" />
   </component>
 </project>
